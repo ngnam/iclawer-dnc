@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLinkDownloadToomva", "GetLinkDownloadToomva\GetLinkDownloadToomva.csproj", "{76FA7B21-DAB3-4F60-AB17-E710E910A744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Infrashstructure", "Services.Infrashstructure\Services.Infrashstructure.csproj", "{B95160A2-C641-4ABB-86FE-3AA1A2A99814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76FA7B21-DAB3-4F60-AB17-E710E910A744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FA7B21-DAB3-4F60-AB17-E710E910A744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FA7B21-DAB3-4F60-AB17-E710E910A744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FA7B21-DAB3-4F60-AB17-E710E910A744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A8886C7-97A4-42F0-BA90-47F1A015F3CF}
+	EndGlobalSection
+EndGlobal
