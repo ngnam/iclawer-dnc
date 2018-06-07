@@ -13,7 +13,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Services.Infrashstructure\Services.Infrashstructure.csproj" />
+    <Folder Include="wwwroot\writeFiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services.Clawer\Services.Clawer.csproj" />
+    <ProjectReference Include="..\Services.RegEmail\Services.RegEmail.csproj" />
+    <ProjectReference Include="..\Services.WriteFile\Services.WriteFile.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,3 +4,10 @@
 /Services.Infrashstructure/bin
 /Services.Infrashstructure/obj
 /GetLinkDownloadToomva/wwwroot/lib
+/GetLinkDownloadToomva/wwwroot/writeFiles
+/Services.Clawer/bin
+/Services.RegEmail/bin
+/Services.WriteFile/bin
+/Services.Clawer/obj
+/Services.RegEmail/obj
+/Services.WriteFile/obj

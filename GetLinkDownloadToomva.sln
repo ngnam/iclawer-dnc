@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2002
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLinkDownloadToomva", "GetLinkDownloadToomva\GetLinkDownloadToomva.csproj", "{76FA7B21-DAB3-4F60-AB17-E710E910A744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetLinkDownloadToomva", "GetLinkDownloadToomva\GetLinkDownloadToomva.csproj", "{76FA7B21-DAB3-4F60-AB17-E710E910A744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Infrashstructure", "Services.Infrashstructure\Services.Infrashstructure.csproj", "{B95160A2-C641-4ABB-86FE-3AA1A2A99814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Infrashstructure", "Services.Infrashstructure\Services.Infrashstructure.csproj", "{B95160A2-C641-4ABB-86FE-3AA1A2A99814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.RegEmail", "Services.RegEmail\Services.RegEmail.csproj", "{442A2954-5A31-4B28-9715-CCEB8A1E5555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Clawer", "Services.Clawer\Services.Clawer.csproj", "{FA7D5B5C-50D8-4BF0-8661-EAB3E71B5090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.WriteFile", "Services.WriteFile\Services.WriteFile.csproj", "{DDF50F66-48E6-436E-A087-F47E7F2DA7BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95160A2-C641-4ABB-86FE-3AA1A2A99814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442A2954-5A31-4B28-9715-CCEB8A1E5555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442A2954-5A31-4B28-9715-CCEB8A1E5555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442A2954-5A31-4B28-9715-CCEB8A1E5555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442A2954-5A31-4B28-9715-CCEB8A1E5555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7D5B5C-50D8-4BF0-8661-EAB3E71B5090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7D5B5C-50D8-4BF0-8661-EAB3E71B5090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7D5B5C-50D8-4BF0-8661-EAB3E71B5090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7D5B5C-50D8-4BF0-8661-EAB3E71B5090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF50F66-48E6-436E-A087-F47E7F2DA7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF50F66-48E6-436E-A087-F47E7F2DA7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF50F66-48E6-436E-A087-F47E7F2DA7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF50F66-48E6-436E-A087-F47E7F2DA7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

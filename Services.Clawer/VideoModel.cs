@@ -1,4 +1,4 @@
-﻿namespace Services.Infrashstructure
+﻿namespace Services.Clawer
 {
     public class VideoModel
     {

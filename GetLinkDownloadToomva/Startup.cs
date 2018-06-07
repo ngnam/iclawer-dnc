@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Services.Infrashstructure;
+using Services.Clawer;
+using Services.WriteFile;
 
 namespace GetLinkDownloadToomva
 {
@@ -24,6 +21,7 @@ namespace GetLinkDownloadToomva
         {
             services.AddMvc();
             services.AddScoped<IClawer, Clawer>();
+            services.AddScoped<IWriteFile, WriteFile>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

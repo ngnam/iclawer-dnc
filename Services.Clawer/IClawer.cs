@@ -1,7 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System.Threading.Tasks;
 
-namespace Services.Infrashstructure
+namespace Services.Clawer
 {
     public interface IClawer
     {
