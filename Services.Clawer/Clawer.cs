@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,6 +15,7 @@ namespace Services.Clawer
 
         public async Task<VideoModel> GetVideoDownload(string url)
         {
+            Uri uri = new Uri(url);
             var htmlDoc = GetFromLinkAsync(url);
             var linkVideo = GetLinkVideo(htmlDoc);
             var lstSubs = GetScriptPath4(htmlDoc);
@@ -28,8 +30,8 @@ namespace Services.Clawer
                 var scripts = lstSubs[4].Replace("\n", "").Split(',');
                 var subEn = GetStringChar(scripts[0], '=')[1];
                 var subVn = GetStringChar(scripts[1], '=')[1];
-                videoVM.Sub1 = string.Format("https://toomva.com{0}", subEn.Replace("'", "").Trim());
-                videoVM.Sub2 = string.Format("https://toomva.com{0}", subVn.Replace("'","").Trim());
+                videoVM.Sub1 = string.Format("{0}{1}", uri.Host, subEn.Replace("'", "").Trim());
+                videoVM.Sub2 = string.Format("{0}{1}", uri.Host, subVn.Replace("'","").Trim());
             }
             return videoVM;
         }

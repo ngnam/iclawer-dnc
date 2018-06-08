@@ -48,8 +48,7 @@ namespace GetLinkDownloadToomva.Controllers
             {
                 if (string.IsNullOrEmpty(_pathFolder))
                 {
-                    var physicalPath = _hostingEnvironment.WebRootFileProvider.GetFileInfo(_folderSave).PhysicalPath;
-                    _pathFolder = InitFolderAssets(physicalPath);
+                    _pathFolder = InitFolderAssets(_hostingEnvironment, _folderSave);
                 }
                 return this._pathFolder;
             }
